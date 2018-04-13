@@ -7,6 +7,7 @@ Most of the issues I encountered were related to VM installation. The instructio
 Aside from initializing the project, I also ran into firewall issues. I could not access the external ip until I went into the VM settings on the GCP console and set the firewall to allow HTTP(S) traffic. For some reason, it is initialized to NOT allow traffic. 
 
 ## A summary of the data collected: number of attacks, number of malware samples, etc. ##
-At the time of writing this report, the honeypot VM has been running for about 45 minutes. It has already intercepted 70 different attacks from a variety of foreign countries!
+At the time of writing this report, the honeypot VM has been running for about 12 hours. It has intercepted 1407 different attacks from a variety of foreign countries! The IP address 191.101.167.37 (US) has conducted the most attacks and port 445 is the most attacked port. 
 
 ## Any unresolved questions raised by the data collected ##
+The only questions I have abou the collected data is what kind of attacks these IP addresses conducted. Aside from that, the procedures were pretty straight forward and the MHN VM provides a clean UI. 
